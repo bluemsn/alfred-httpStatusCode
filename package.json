@@ -1,5 +1,5 @@
 {
-  "name": "alfred-httpcode",
+  "name": "alfred-httpStatusCode",
   "version": "0.0.1",
   "description": "http code state mean",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava",
+    "test": "ava ./test.js",
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup"
   },
@@ -21,7 +21,7 @@
   "keywords": [
     "alfred",
     "workflow",
-    "httpcode"
+    "httpStatusCode"
   ],
   "dependencies": {
     "alfred-link": "^0.2.0",
