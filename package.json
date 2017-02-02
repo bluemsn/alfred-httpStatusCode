@@ -1,5 +1,5 @@
 {
-  "name": "alfred-httpStatusCode",
+  "name": "alfred-httpstatuscode",
   "version": "0.0.1",
   "description": "http code state mean",
   "main": "index.js",
